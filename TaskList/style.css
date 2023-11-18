@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.task-div {
+    margin: 20px 0;
+    background-color: rgb(201, 238, 238);
+    border: 1px solid grey;
+    box-shadow: 1 1 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgb(249, 155, 124);
+    border: 1px solid black;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+td {
+    background-color: rgb(199, 249, 124);
+}
